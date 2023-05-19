@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center
+{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+html,body
+{
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+header
+{
+    height: 200px;
+    padding: 20px 0;
+}
+.logo
+{
+    width: 50%;
+}
+.menu
+{
+    padding-top: 25px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+section.sobre
+{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras 
+{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1200px;
+    height: 1200px;
+}
+.extras2 
+{
+    position: absolute;
+    bottom: -450px;
+    right: 500px;
+    width: 1200px;
+    height: 850px;
+}
+.extras3 
+{
+    position: absolute;
+    bottom: -450px;
+    right: 500px;
+    width: 650px;
+    height: 850px;
+}
+
+.social-media
+{
+    position: absolute;
+    right: 550;
+    top: 70;
+}
+
+.texto-sobre
+{
+margin-top: 100px;
+}
+
+.texto-sobre h1
+{
+    font-size: 60px;
+}
+
+.texto-sobre h2
+{
+margin: 20px 0;
+color: black;
+font-size: 25px;
+font-weight: bold;
+max-width: 800px;
+}
